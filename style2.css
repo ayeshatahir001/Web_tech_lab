@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 0; 
+    padding: 0;
+    margin: 0; 
+  }
+  
+
+  .container .left-side {
+    position: relative;
+    padding: 40px;
+    background-color: #003147;
+    color: white;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+  }
+  
+ 
+  .container .right-side {
+    padding: 40px;
+    background: #f0f8ff; 
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    padding-top: 40px; 
+  }
+  
+ 
+  .right-side-image {
+    position: relative;
+    top: 0; 
+    right: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px; }
+  
+  .right-side-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .skills h2 {
+    font-size: 24px;
+    color: #003147;
+    margin-top: 30px; }
+
+  
+  .skills h3 {
+    font-size: 20px;
+    color: #003147;
+    margin-top: 10px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .skills ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+
+  .projects h2 {
+    font-size: 24px;
+    color: #003147;
+    margin-top: 30px; 
+  }
+  
+  .projects ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .projects ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .projects ul li strong {
+    color: #003147;
+  }
+  
+ 
+  .about-me {
+    margin-top: 20px;
+  }
+  
+  .about-me h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .about-me p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+
+  .education {
+    margin-top: 20px;
+  }
+  
+  .education h3 {
+    font-size:16px;
+}  
